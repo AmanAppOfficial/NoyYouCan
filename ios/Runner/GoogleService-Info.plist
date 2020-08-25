@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>405394292748-afnmptfudphbll26j51vgn9vosl55jfm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405394292748-afnmptfudphbll26j51vgn9vosl55jfm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>405394292748-gscdn9eq74e7jb8t4ug4tm2ph8k6lshm.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCZmuBU7Fb0RURLhRt0-9ijL_9YDibjXyQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405394292748</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.nowyoucan</string>
+	<key>PROJECT_ID</key>
+	<string>nowyoucan-4caec</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nowyoucan-4caec.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405394292748:ios:db4296d21fe4c6f7512e29</string>
+	<key>DATABASE_URL</key>
+	<string>https://nowyoucan-4caec.firebaseio.com</string>
+</dict>
+</plist>

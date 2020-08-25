@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nowyoucan"
+4    android:versionCode="9"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:9:5-65
+15-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:10:5-80
+16-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:11:5-79
+17-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:22:5-79
+18-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:22:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:24:5-68
+19-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
+21
+22    <application
+22-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:12:5-50:19
+23        android:name="io.flutter.app.FlutterApplication"
+23-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:13:9-57
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/158de9519577c7ffb49592b2f543b9bc/core-1.2.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/logo"
+26-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:15:9-36
+27        android:label="NowYouCan-FC" >
+27-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:14:9-37
+28        <activity
+28-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:16:9-44:20
+29            android:name="com.nowyoucan.MainActivity"
+29-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:17:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:20:13-163
+31            android:hardwareAccelerated="true"
+31-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:21:13-47
+32            android:launchMode="singleTop"
+32-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:18:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:19:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:22:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:27:13-30:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:28:15-70
+44                android:resource="@style/NormalTheme" />
+44-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:29:15-52
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:36:13-39:17
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:37:15-79
+54                android:resource="@drawable/launch_background" />
+54-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:38:15-61
+55
+56            <intent-filter>
+56-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:40:13-43:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:41:17-68
+57-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:41:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:42:17-76
+59-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:42:27-74
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:47:9-49:33
+67            android:name="flutterEmbedding"
+67-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:48:13-44
+68            android:value="2" />
+68-->/home/aman/Documents/nyc-te-app/android/app/src/main/AndroidManifest.xml:49:13-30
+69
+70        <provider
+70-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+71            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+71-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+72            android:authorities="com.nowyoucan.flutter.image_provider"
+72-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+73            android:exported="false"
+73-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+74            android:grantUriPermissions="true" >
+74-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+75            <meta-data
+75-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+76                android:name="android.support.FILE_PROVIDER_PATHS"
+76-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+77                android:resource="@xml/flutter_image_picker_file_paths" />
+77-->[:image_picker] /home/aman/Documents/nyc-te-app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+78        </provider>
+79
+80        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+80-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+80-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+81            <intent-filter>
+81-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+82                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+82-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+82-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+83            </intent-filter>
+84        </service>
+85        <service
+85-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+86            android:name="com.google.firebase.components.ComponentDiscoveryService"
+86-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
+87            android:directBootAware="true"
+87-->[com.google.firebase:firebase-common:19.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+88            android:exported="false" >
+88-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:31:13-37
+89            <meta-data
+89-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+90                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+90-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+93-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+95        </service>
+96        <!--
+97             FirebaseMessagingService performs security checks at runtime,
+98             but set to not exported to explicitly avoid allowing another app to call it.
+99        -->
+100        <service
+100-->[com.google.firebase:firebase-messaging:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/b0598b0c159c25484ddefe1f4742c563/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+101            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+101-->[com.google.firebase:firebase-messaging:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/b0598b0c159c25484ddefe1f4742c563/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+102            android:exported="false" >
+102-->[com.google.firebase:firebase-messaging:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/b0598b0c159c25484ddefe1f4742c563/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+103            <intent-filter android:priority="-500" >
+103-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+104                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+104-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+104-->[:firebase_messaging] /home/aman/Documents/nyc-te-app/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+105            </intent-filter>
+106        </service>
+107
+108        <receiver
+108-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+109            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+109-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+110            android:exported="true"
+110-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+111            android:permission="com.google.android.c2dm.permission.SEND" >
+111-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+112            <intent-filter>
+112-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+113                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+113-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+113-->[com.google.firebase:firebase-iid:20.0.1] /home/aman/.gradle/caches/transforms-2/files-2.1/fd68efa81c2b8da8d9b8d6caa1349342/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+114            </intent-filter>
+115        </receiver>
+116
+117        <provider
+117-->[com.google.firebase:firebase-common:19.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+118            android:name="com.google.firebase.provider.FirebaseInitProvider"
+118-->[com.google.firebase:firebase-common:19.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+119            android:authorities="com.nowyoucan.firebaseinitprovider"
+119-->[com.google.firebase:firebase-common:19.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:19.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:19.2.0] /home/aman/.gradle/caches/transforms-2/files-2.1/8a52977c14256467b02276ca04edf73b/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/12172bd92333b24a6ca38dc2aa663cea/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/790d0390995ea0eb33aba0564491aa03/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/790d0390995ea0eb33aba0564491aa03/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:17.0.0] /home/aman/.gradle/caches/transforms-2/files-2.1/790d0390995ea0eb33aba0564491aa03/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+131    </application>
+132
+133</manifest>

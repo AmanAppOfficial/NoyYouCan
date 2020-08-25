@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "405394292748",
+    "firebase_url": "https://nowyoucan-4caec.firebaseio.com",
+    "project_id": "nowyoucan-4caec",
+    "storage_bucket": "nowyoucan-4caec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405394292748:android:4000311a5d903c46",
+        "android_client_info": {
+          "package_name": "com.app.nowyoucan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405394292748-geqsoa73uj5rvf13uevggvhpbhkj17g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.nowyoucan",
+            "certificate_hash": "ba017d18dbed8127630695e3e41eb189c53fda9b"
+          }
+        },
+        {
+          "client_id": "405394292748-e4hcg359l3kr7bad5pb1lekvg94hmv1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.nowyoucan",
+            "certificate_hash": "3ceaef68c58ddc19ae891c7811285d355d8efbfd"
+          }
+        },
+        {
+          "client_id": "405394292748-62797b53s0v5irqh825mvaqm9nl733up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZs5j4tRb5UFXIyacYThonszXKDjxyTyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405394292748-kkcs4l10ur50gfage4p0b92hr6ndielm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405394292748-5eh1bvmqhen2tndunmecj5jk2uhj2gd8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.nowyoucan"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405394292748:android:2577bb8e3d055bfe",
+        "android_client_info": {
+          "package_name": "com.app.nyc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405394292748-62797b53s0v5irqh825mvaqm9nl733up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZs5j4tRb5UFXIyacYThonszXKDjxyTyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405394292748-kkcs4l10ur50gfage4p0b92hr6ndielm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405394292748-5eh1bvmqhen2tndunmecj5jk2uhj2gd8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.nowyoucan"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405394292748:android:ccb468c111111764512e29",
+        "android_client_info": {
+          "package_name": "com.nowyoucan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405394292748-gscdn9eq74e7jb8t4ug4tm2ph8k6lshm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nowyoucan",
+            "certificate_hash": "189cd3a92ff30c29de7b291f268f7566b2ad7f8d"
+          }
+        },
+        {
+          "client_id": "405394292748-62797b53s0v5irqh825mvaqm9nl733up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZs5j4tRb5UFXIyacYThonszXKDjxyTyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405394292748-kkcs4l10ur50gfage4p0b92hr6ndielm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405394292748-5eh1bvmqhen2tndunmecj5jk2uhj2gd8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.nowyoucan"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
